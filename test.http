@@ -1,0 +1,19 @@
+POST https://learn.codeit.kr/api/link-service/users
+Content-Type: application/json
+
+{
+    "name": "코드잇",
+    "email": "codeit@example.com",
+    "password": "p@ssword"
+}
+
+###
+POST https://learn.codeit.kr/api/link-service/auth/login
+Content-Type: application/json
+
+{
+
+    "name": "장보배",
+    "email": "jangajg1@gmail.com",
+    "password" : "ch0000"
+}
